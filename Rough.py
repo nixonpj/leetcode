@@ -1,3 +1,4 @@
-a = [1,4,2]
-a.sort()
-sorted(a)
+a = 0
+
+if a is not None:
+    print('yes')
