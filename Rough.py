@@ -1,4 +1,1 @@
-a = 0
-
-if a is not None:
-    print('yes')
+print(divmod(32,15))
