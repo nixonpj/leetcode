@@ -1,1 +1,1 @@
-print(divmod(32,15))
+print(([None]*5)[0])
