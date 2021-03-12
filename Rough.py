@@ -1,1 +1,1 @@
-print(([None]*5)[0])
+print(None>18>16>12)

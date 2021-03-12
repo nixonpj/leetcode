@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4a348cd1-a6af-4069-b842-9ead119f29bb" name="Default Changelist" comment="Solved &quot;7. Reverse String&quot; using a recursive method.">
+      <change afterPath="$PROJECT_DIR$/Depth of a Binary Tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Longest Substring Without Repeating Characters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Min_Stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Validate BST.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zigzag Conversion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rough.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rough.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iwFbDL8tvVSENh7bQjpqYWKynX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Validate BST">
+    <configuration name="Depth of a Binary Tree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Depth of a Binary Tree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Longest Substring Without Repeating Characters" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Longest Substring Without Repeating Characters.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Rough" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Rough.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Shuffle an Array" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Shuffle an Array.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Validate BST" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Validate BST.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Validate BST" />
+        <item itemvalue="Python.Rough" />
+        <item itemvalue="Python.Depth of a Binary Tree" />
+        <item itemvalue="Python.Longest Substring Without Repeating Characters" />
+        <item itemvalue="Python.Shuffle an Array" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a348cd1-a6af-4069-b842-9ead119f29bb" name="Default Changelist" comment="" />
+      <created>1602810817615</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602810817615</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Solved &quot;2. Add Two Numbers&quot; using a recursive solution.">
+      <created>1605377306285</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605377306285</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Solved &quot;1. Two Sum&quot; using a dictionary method. Much more memory usage.">
+      <created>1605378031267</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605378031267</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Solved &quot;7. Reverse String&quot; using a recursive method.">
+      <created>1605383395267</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605383395267</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Solved &quot;2. Add Two Numbers&quot; using a recursive solution." />
+    <MESSAGE value="Solved &quot;1. Two Sum&quot; using a dictionary method. Much more memory usage." />
+    <MESSAGE value="Solved &quot;7. Reverse String&quot; using a recursive method." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved &quot;7. Reverse String&quot; using a recursive method." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1419" height="184" key="GridCell.Tab.0.bottom" timestamp="1615572968913">
+      <screen x="0" y="25" width="1440" height="801" />
+    </state>
+    <state width="1419" height="188" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1615316115088" />
+    <state width="1419" height="188" key="GridCell.Tab.0.bottom/0.23.1440.810@0.23.1440.810" timestamp="1615325497478" />
+    <state width="1419" height="184" key="GridCell.Tab.0.bottom/0.25.1440.801@0.25.1440.801" timestamp="1615572968913" />
+    <state width="1419" height="184" key="GridCell.Tab.0.center" timestamp="1615572968910">
+      <screen x="0" y="25" width="1440" height="801" />
+    </state>
+    <state width="1419" height="188" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1615316115087" />
+    <state width="1419" height="188" key="GridCell.Tab.0.center/0.23.1440.810@0.23.1440.810" timestamp="1615325497477" />
+    <state width="1419" height="184" key="GridCell.Tab.0.center/0.25.1440.801@0.25.1440.801" timestamp="1615572968910" />
+    <state width="1419" height="184" key="GridCell.Tab.0.left" timestamp="1615572968909">
+      <screen x="0" y="25" width="1440" height="801" />
+    </state>
+    <state width="1419" height="188" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1615316115086" />
+    <state width="1419" height="188" key="GridCell.Tab.0.left/0.23.1440.810@0.23.1440.810" timestamp="1615325497476" />
+    <state width="1419" height="184" key="GridCell.Tab.0.left/0.25.1440.801@0.25.1440.801" timestamp="1615572968909" />
+    <state width="1419" height="184" key="GridCell.Tab.0.right" timestamp="1615572968911">
+      <screen x="0" y="25" width="1440" height="801" />
+    </state>
+    <state width="1419" height="188" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1615316115087" />
+    <state width="1419" height="188" key="GridCell.Tab.0.right/0.23.1440.810@0.23.1440.810" timestamp="1615325497477" />
+    <state width="1419" height="184" key="GridCell.Tab.0.right/0.25.1440.801@0.25.1440.801" timestamp="1615572968911" />
+    <state x="521" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615513503454">
+      <screen x="0" y="25" width="1440" height="801" />
+    </state>
+    <state x="521" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.801@0.25.1440.801" timestamp="1615513503454" />
+    <state x="418" y="23" width="604" height="808" key="find.popup" timestamp="1614138659239">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="418" y="23" width="604" height="808" key="find.popup/0.23.1440.808@0.23.1440.808" timestamp="1614138659239" />
+    <state x="563" y="225" key="refactoring.ChangeSignatureDialog" timestamp="1607042323181">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="563" y="225" key="refactoring.ChangeSignatureDialog/0.23.1440.808@0.23.1440.808" timestamp="1607042323181" />
+    <state x="385" y="155" width="670" height="676" key="search.everywhere.popup" timestamp="1607042623340">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="385" y="155" width="670" height="676" key="search.everywhere.popup/0.23.1440.808@0.23.1440.808" timestamp="1607042623340" />
+  </component>
+</project>
