@@ -7,27 +7,18 @@ class TreeNode:
         self.right = right
 
 class Solution:
-    def is_valid_BST2(self, root: TreeNode) -> bool:
-        if not root:
-            return True
-        if root.left and root.left.val > root.val:
-            print("yes")
-            return False
-        if root.right and root.right.val < root.val:
-            print("yesss")
-            return False
-        return True and self.is_valid_BST(root.left) and self.is_valid_BST(root.right)
+    def is_valid_BST_helper(self, root: TreeNode):
+        res = []
+        if root:
+            res = self.is_valid_BST_helper(root.left)
+            res.append(root.val)
+            res = res + self.is_valid_BST_helper(root.right)
+        return res
 
-    def is_valid_BST3(self, root: TreeNode) -> bool:
-            res = []
-            if root:
-                print(res)
-                res = self.is_valid_BST(root.left)
-                res.append(root.val)
-                res = res + self.is_valid_BST(root.right)
-            return res==sorted(res)
+    def isValidBST(self, root: TreeNode) -> bool:
+        res = self.is_valid_BST_helper(root)
+        return res == sorted(res) and len(set(res)) == len(res)
 
-    def is_valid_BST(self, root: TreeNode) -> bool:
 
 
 
