@@ -1,3 +1,6 @@
+from math import inf
+
+
 class MinStack:
 
     def __init__(self):
@@ -5,18 +8,20 @@ class MinStack:
         initialize your data structure here.
         """
         self._min_heap = []
+        self.min = inf
 
     def push(self, x: int) -> None:
-        pass
+        self._min_heap.append(x)
+        self.min = min(self.min, x)
 
     def pop(self) -> None:
-        pass
+        return self._min_heap.pop()
 
     def top(self) -> int:
-        pass
+        return self._min_heap[-1]
 
     def getMin(self) -> int:
-        pass
+        return self.min
 
 # Your MinStack object will be instantiated and called as such:
 obj = MinStack()
