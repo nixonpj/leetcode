@@ -8,7 +8,7 @@ from math import log
 class Solution:
     def isPowerOfThree(self, n: int) -> bool:
         return 3**(round(log(abs(n), 3))) == n
-        
+
 
 
 

@@ -8,3 +8,22 @@ Constraints:
 
 Follow up: If this function is called many times, how would you optimize it?
 """
+
+
+class Solution:
+    def hammingWeight(self, n: int) -> int:
+        one_count = 0
+        i = 1
+        n = abs(n)
+        while n:
+            x = (n % 2 ** i)
+            one_count += bool(x)
+            print(n, 2 ** i, x, one_count)
+            n = n - x
+            i += 1
+        return one_count
+
+
+s = Solution()
+print(s.hammingWeight(15))
+
