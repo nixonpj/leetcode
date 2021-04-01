@@ -32,7 +32,19 @@ class Solution:
                     seen.add(jump_dist)
         return False
 
+    def canJump(self, nums: List[int]) -> bool:
+        """Works great!"""
+        dp_arr = nums[:]
+        max_reachable = 0
+        for i, num in enumerate(nums):
+            if max_reachable >= i:
+                dp_arr[i] = i + num
+                max_reachable = max(max_reachable, dp_arr[i])
+            else:
+                return False
+        return True
+
 
 s = Solution()
-print(s.canJump2([10, 9, 8, 7, 6,5,4,3,2,1,0,0]))
+print(s.canJump([10, 9, 8, 7, 6,5,4,3,2,1,0,0]))
 # print(s.canJump2([2,3,1,1,4,1,2,5,1,2,1,2,1,2,1,0,0,1,1,2,3,5]))

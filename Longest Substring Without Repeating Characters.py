@@ -11,7 +11,6 @@ where res[i] is the longest sub-string ending at i.
 """
 
 def length_longest_substring(s: str) -> int:
-    # res = [0] * (len(s)+1)
     prev = 0
     max_substr = 0
     seen_ht = {}

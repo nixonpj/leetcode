@@ -4,7 +4,7 @@ Given the head of a linked list, remove the nth node from the end of the list an
 Follow up: Could you do this in one pass?
 Status: Incomplete
 """
-from queue import Queue
+from collections import deque
 
 
 # Definition for singly-linked list.
@@ -17,14 +17,15 @@ class ListNode:
 class Solution:
     def remove_nth_from_end(head: ListNode, n: int) -> ListNode:
         node = head
-        array_n = []
-        i = 0
-        while node.next:
-            array_n.append = node
+        q = deque(maxlen=n + 2)
+        while node:
+            q.append(node)
             node = node.next
-            i += 1
-        array_n[i-n].next = array_n[i-n+1].next
-        return array_n[i-n]
+        q.append(None)
+        if len(q) < (n + 2):
+            return head.next
+        q[0].next = q[2]
+        return head
 
 
 s = Solution()
