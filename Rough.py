@@ -1,1 +1,3 @@
-print(None or None)
+import datetime
+
+print(datetime.datetime.now().date())
