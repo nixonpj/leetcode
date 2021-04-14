@@ -1,3 +1,1 @@
-import datetime
-
-print(datetime.datetime.now().date())
+print(4 ^ 9)
