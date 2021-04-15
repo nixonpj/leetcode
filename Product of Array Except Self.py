@@ -12,11 +12,12 @@ class Solution:
         n = len(nums)
         pr = 1
         nums_c = nums[:]
+
         for i, num in enumerate(nums):
             nums_c[i] = pr
             pr *= num
         pr = 1
-        print(nums_c, nums)
+
         for i in range(n-1, -1, -1):
             nums_c[i] *= pr
             pr *= nums[i]

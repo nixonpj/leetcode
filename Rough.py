@@ -1,1 +1,1 @@
-print(4 ^ 9)
+print("eat"^"tan")
