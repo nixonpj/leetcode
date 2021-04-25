@@ -9,22 +9,17 @@ from typing import List
 
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
-        n = len(nums)
-        pr = 1
-        nums_c = nums[:]
-
+        left_prod, right_prod = 1, 1
+        res = [1]*len(nums)
         for i, num in enumerate(nums):
-            nums_c[i] = pr
-            pr *= num
-        pr = 1
+            res[i], left_prod = left_prod, left_prod*num
 
-        for i in range(n-1, -1, -1):
-            nums_c[i] *= pr
-            pr *= nums[i]
-        return nums_c
+        for j in range(len(nums)-1, -1, -1):
+            res[j], right_prod = res[j]*right_prod, right_prod * nums[j]
+        return res
 
 
 s = Solution()
 # print(s.productExceptSelf([1,2,3,4]))
-print(s.productExceptSelf([-1,1,0,-3,3]))
+# print(s.productExceptSelf([-1,1,0,-3,3]))
 print(s.productExceptSelf([-1,0]))
