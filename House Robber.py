@@ -12,14 +12,16 @@ from typing import List
 
 class Solution:
     def rob(self, nums: List[int]) -> int:
-        res = nums[0]
-        prev1 = 0
-        prev2 = 0
-        for num in nums:
-            curr = max(num, prev1, prev2 + num)
-            res = max(res, curr)
-            prev2 = prev1
-            prev1 = curr
+        first_house = nums[0]
+        if len(nums) == 1:
+            return first_house
+        second_house = max(nums[0], nums[1])
+        res = max(first_house, second_house)
+        for house in range(2, len(nums)):
+            temp = max(second_house,first_house+nums[house])
+            first_house, second_house = second_house, temp
+            res = max(res, temp)
+
         return res
 
 
@@ -29,3 +31,7 @@ c = [1, 2, 3, 1, 2, 7, 9, 3, 1]
 "1, 2, 4, 3, 6, "
 s = Solution()
 print(s.rob(c))
+
+
+
+
