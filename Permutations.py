@@ -7,19 +7,17 @@ from typing import List
 
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
-        self.res = []
-        self.dfs(nums, [], len(nums))
-        return self.res
+        res = []
+        self.dfs(nums, [], res)
+        return res
 
-    def dfs(self, nums, prefix, n):
-        if nums not in self.res and len(nums)==n:
-            self.res.append(nums)
-        # if prefix not in self.res and len(prefix)==n:
-        #     self.res.append(prefix)
-        for i, num in enumerate(nums):
-            self.dfs(nums[:i]+nums[i+1:], prefix+[num], n)
-
+    def dfs(self, nums, path, res):
+        if not nums:
+            res.append(path)
+        else:
+            for i in range(len(nums)):
+                self.dfs(nums[:i]+nums[i+1:], path+[nums[i]], res)
 
 s = Solution()
-print(s.permute([1,2,3]))
+print(s.permute([1,2,3,4]))
 

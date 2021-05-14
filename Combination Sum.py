@@ -17,12 +17,16 @@ from math import inf
 
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
-        dp_array = [0] + [-inf]*len(candidates)
+        self.res = []
+        self.dfs(candidates, [], 0, target)
+        return self.res
 
-        for i, cand in enumerate(candidates):
-            for t in range(1, target+1):
-                if t >= cand:
-                    dp_array[t] += (t % cand)
+    def dfs(self, nums, path, path_sum, target):
+        if path_sum == target:
+            self.res.append(path)
+        if path_sum < target:
+            for i, num in enumerate(nums):
+                self.dfs(nums[i:], path+[num], path_sum+num, target)
 
 
 s = Solution()
